@@ -57,8 +57,8 @@ public class SingleLinkedList implements List{
 		if (index < 0 || index > size) {
 			throw new Exception("参数错误");
 		}
-		index(index-1);
-		return currentNode.getNext().getElement();
+		index(index);
+		return currentNode.getElement();
 	}
 	
 	

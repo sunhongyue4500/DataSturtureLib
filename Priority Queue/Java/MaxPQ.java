@@ -67,7 +67,7 @@ public class MaxPQ<Key extends Comparable<Key>>{
 	 * @return
 	 */
 	boolean isEmpty() {
-		return N > 0;
+		return N == 0;
 	}
 	
 	/**

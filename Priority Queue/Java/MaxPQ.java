@@ -2,7 +2,7 @@ package priorityQueue;
 
 
 /**
- * 基于堆得优先队列
+ * 基于最大堆的优先队列
  * @author sunhy
  *
  * @param <Key>

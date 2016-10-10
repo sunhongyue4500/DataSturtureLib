@@ -12,12 +12,20 @@ public class Test {
 				new Person("zan"),
 				new Person("an"),
 		};
-		MaxPQ<Person> pq = new MaxPQ<>(persons);
-		System.out.println(pq.max());
-		System.out.println(pq.size());
-		System.out.println(pq.delMax());
-		System.out.println(pq.max());
-		System.out.println(pq.size());
+//		MaxPQ<Person> pq = new MaxPQ<>(persons);
+//		System.out.println(pq.max());
+//		System.out.println(pq.size());
+//		System.out.println(pq.delMax());
+//		System.out.println(pq.max());
+//		System.out.println(pq.size());
+		
+		MinPQ<Person> pq2 = new MinPQ<>(persons);
+		System.out.println(pq2.min());
+		System.out.println(pq2.size());
+		System.out.println(pq2.delMin());
+		System.out.println(pq2.min());
+		System.out.println(pq2.size());
+		
 	}
 
 }
